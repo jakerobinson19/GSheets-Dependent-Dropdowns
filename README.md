@@ -1,2 +1,2 @@
-# Google-Sheets-Script---Dependent-Dropdowns
+# Google-Sheets: Dependent Dropdowns
 Script for applying dependent dropdowns in google sheets
