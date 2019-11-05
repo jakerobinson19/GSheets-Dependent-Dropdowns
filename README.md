@@ -1,9 +1,11 @@
 # Google-Sheets: Dependent Dropdowns
+![Alt Text](http://g.recordit.co/NDtds6plYY.gif)
+
 Script for applying dependent dropdowns in google sheets (current script has functions for two dependent dropdowns but can easily be updated to include more by copying ApplyXLevelValidation functions and updating a few lines)
 
 Utilizes a main sheet where the dropdown will appear and a second sheet which contains the data to populate the dropdowns.
 
-Options sheet should appear as below
+Options sheet should appear as below (this is what was used for the example video)
 
 |Column1	   |  Column2		|   Column3 |
 |------------|------------|-----------|
@@ -30,5 +32,3 @@ Options sheet should appear as below
 |Party	     |    Holiday		|New Years Eve|
 
 The script will map the options data to populate the dropdown with a list of option based on the preceeding information in the columns before, i.e., if you're getting options from Column3 the script will look at Column1 and Column2 and if it is Pasta, Long will retrieve Spaghetti and Fettucine to show up in the dropdown.
-
-![Alt Text](http://g.recordit.co/NDtds6plYY.gif)
