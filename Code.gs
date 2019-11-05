@@ -1,6 +1,10 @@
 /*
 Script for implementing dependent dropdowns in a Google Spreadsheet
 8/2019
+
+Make sure that the on Edit Trigger is enabled in Google sheets for the file you're using
+To do so, go to Edit > Current Projects Triggers to see the triggers. 
+If there isn't one, add it
 */
 
 // Set the main WS name which the script will apply validations to
